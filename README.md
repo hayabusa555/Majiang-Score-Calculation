@@ -8,6 +8,8 @@ https://hayabusa555.github.io/Majiang-Score-Calculation/calculate.html
 # License
 Copyright (c) 2021 hayabusa555
 
+original source:https://github.com/kobalab/Majiang
+
 Copyright (c) 2017 Satoshi Kobayashi
 
 Released under the MIT license
