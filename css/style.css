@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.hide {
+  display: none !important;
+}
+textarea {
+  font-size: 100%;
+  font-family: Menlo, Consolas, Courier, monospace;
+}
+input {
+  font-size: 100%;
+  font-family: Menlo, Consolas, Courier, monospace;
+}
+input[type="submit"],
+input[type="reset"] {
+  font-family: Verdana, sans-serif;
+}
+body {
+  transition: opacity 0.2s ease-out;
+  margin-top: 0;
+  -webkit-text-size-adjust: 100%;
+}
+.hand {
+  display: table;
+}
+.hand .hidehand {
+  line-height: 0px;
+}
+.hand .openhand {
+  line-height: 0px;
+}
+.hand .openhand .set {
+  white-space: nowrap;
+  margin-left: 2px;
+  float: right;
+}
+.hand .openhand .set .rotate {
+  display: inline-block;
+  white-space: nowrap;
+  text-align: left;
+  transform-origin: 0% 0%;
+}
+.calculatedialog {
+  transition: opacity 0.2s ease-out;
+}
+.calculatedialog .calculate .yaku {
+  font-family: "DFPLeiSho-SB", "HGP行書体", serif;
+  line-height: 1;
+}
+.calculatedialog .calculate .yaku .fan {
+  text-align: right;
+  padding-left: 2em;
+}
+.calculatedialog .distribute {
+  font-family: Georgia, serif;
+}
+.calculatedialog .distribute .winds,
+.calculatedialog .distribute .score{
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: right;
+}
+body.demo {
+  user-select: none;
+  color: #fff;
+  background: #036;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+}
+body.demo form {
+  margin-top: 1em;
+}
+body.demo form div {
+  margin: 2px 0;
+}
+body.demo form span {
+  margin-right: 1em;
+}
+body.demo form input[name="hands"] {
+  width: 16em;
+}
+body.demo form input[name="dora"],
+body.demo form input[name="uradora"] {
+  text-align: center;
+  width: 2em;
+}
+body.demo .hand {
+  margin: 10px 0px;
+  width: auto;
+  height: 70px;
+}
+body.demo .hand .hidehand {
+  margin-top: 14px;
+  float: left;
+}
+body.demo .hand .hidehand .pai {
+  width: 40px;
+  height: 56px;
+  transition: width 0.2s ease-out;
+}
+body.demo .hand .hidehand .draw {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+body.demo .hand .openhand {
+  margin-top: 14px;
+  float: right;
+}
+body.demo .hand .openhand .rotate {
+  width: 56px;
+  transform: rotate(270deg) translate(-56px, 0px);
+}
+body.demo .hand .openhand .pai {
+  width: 40px;
+  height: 56px;
+}
+body.demo .calculatedialog {
+  margin-top: 20px;
+}
+body.demo .calculatedialog .calculate .hand {
+  clear: both;
+  width: auto;
+  height: 70px;
+}
+body.demo .calculatedialog .calculate .hand .hidehand {
+  margin-top: 21px;
+  float: left;
+}
+body.demo .calculatedialog .calculate .hand .hidehand .pai {
+  width: 35px;
+  height: 49px;
+  transition: width 0.2s ease-out;
+}
+body.demo .calculatedialog .calculate .hand .hidehand .draw {
+  margin-left: 3.5px;
+  margin-right: 3.5px;
+}
+body.demo .calculatedialog .calculate .hand .openhand {
+  margin-top: 21px;
+  float: right;
+}
+body.demo .calculatedialog .calculate .hand .openhand .rotate {
+  width: 49px;
+  transform: rotate(270deg) translate(-49px, 0px);
+}
+body.demo .calculatedialog .calculate .hand .openhand .pai {
+  width: 35px;
+  height: 49px;
+}
+body.demo .calculatedialog .calculate .yaku {
+  font-size: 24px;
+}
+
+form input[name="stack"]   { width: 2em; }
+form input[name="chips"]   { width: 2em; }
