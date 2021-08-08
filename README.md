@@ -2,6 +2,7 @@
 手牌を入力することで自動で点数計算をするアプリです。
 
 デモ
+
 https://hayabusa555.github.io/Majiang-Score-Calculation/calculate.html
 
 # License
