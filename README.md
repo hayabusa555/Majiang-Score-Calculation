@@ -11,3 +11,5 @@ Copyright (c) 2017 Satoshi Kobayashi
 Released under the MIT license
 
 https://github.com/kobalab/Majiang/blob/master/LICENSE
+
+ゲームで使用している牌画像は [麻雀の画像・素材]https://www.civillink.net/fsozai/majan.html
