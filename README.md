@@ -1,5 +1,6 @@
-# Majiang-Score-Calculation
-you can calculate majiang game score
+# 麻雀　点数計算
+手牌を入力することで自動で点数計算をするアプリです。
+
 
 # License
 Copyright (c) 2017 Satoshi Kobayashi
