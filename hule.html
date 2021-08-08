@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>和了点計算</title>
+        <meta name="description" content="J和了点を計算">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/jquery.js"></script>
+        <script src="js/model.js"></script>
+        <script src="js/calculate.js"></script>
+        <script src="js/view.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body class="demo">
+        <form>
+            <h3>上がり</h3>
+            牌姿: 
+            <input  name="hands" type="text">
+            <input name="first" type="submit" value="決定">
+            <input type="reset" value="クリア">
+            <button><a href="help.html">help</a></button>
+            <br>
+            <span>
+            ドラ表示牌:
+            <input name="dora"><input name="dora"><input name="dora"><input name="dora"><input name="dora">
+            <span class="hide">
+            裏ドラ表示牌:
+            <input name="uradora"><input name="uradora"><input name="uradora"><input name="uradora"><input name="uradora">
+            </span>
+            </span>
+            <br>
+            <span>
+                <input name="draw" type="radio" value="1">ツモ
+                <input name="draw" type="radio" value="0" checked>ロン
+            </span>
+            <span>
+                場風:
+                <select name="field">
+                    <option value="0" selected>東</option>
+                    <option value="1">南</option>
+                    <option value="2">西</option>
+                    <option value="3">北</option>
+                </select>
+                自風:
+                <select name="seat">
+                    <option value="0">東</option>
+                    <option value="1" selected>南</option>
+                    <option value="2">西</option>
+                    <option value="3">北</option>
+                </select>
+            </span>
+            <span>
+                本場:<input  name="stack" type="text">
+                リーチ数:<input  name="chips" type="text">
+            </span>
+            <br>
+            <span>
+                <input name="riich" type="checkbox" value="1">立直
+                <input name="riich" type="checkbox" value="2">ダブル立直
+            </span>
+            <span>
+                <input name="round" type="checkbox" value="1" disabled>一発
+            </span>
+            <span>
+                <input name="additional" type="checkbox" value="lastwall">海底
+                <input name="additional" type="checkbox" value="lastdiscard">嶺上
+                <input name="additional" type="checkbox" value="rob">槍槓
+            </span>
+            <span>
+                <input name="blessing" type="checkbox" value="2"><span class="blessing">地和</span>
+            </span>
+        </form>
+        <hr>
+        <div class="calculatedialog">
+            <div class="hand"><div class="hidehand"></div><div class="openhand"></div></div>
+            <div class="yaku"><table></table></div>
+            <hr>
+            <h3>入力
+                Start<input name="begin" type="checkbox" value="1">
+            </h3>
+            自風:
+            <select name="winds">
+                <option value="0">東</option>
+                <option value="1" selected>南</option>
+                <option value="2">西</option>
+                <option value="3">北</option>
+            </select>
+            <span>
+                立直:
+                <input name="riich_left" type="checkbox" value="1">上家
+                <input name="riich_my" type="checkbox" value="1">自家
+                <input name="riich_right" type="checkbox" value="1">下家
+                <input name="riich_front" type="checkbox" value="1">対面
+            </span>
+            <input name="second" type="submit" value="反映">
+            <div class="distribute">
+                <table></table>
+            </div>
+        </div>
+    </body>
+</html>
